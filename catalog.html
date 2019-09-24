@@ -20,16 +20,51 @@
       </nav>
     </header>
     <main>
-      <h1>Каталог жилья в Седоне</h1>
+      <h1 class="visually-hidden">Каталог жилья в Седоне</h1>
       <section>
-        <h2>Фильтр предложений</h2>
-        <div>
-          <!-- Здесь будет форма фильтра -->
+        <h2 class="visually-hidden">Фильтр предложений</h2>
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <label>
+              <input type="checkbox" name="pool" checked>Бассейн
+            </label>
+            <label>
+              <input type="checkbox" name="parking">Парковка
+            </label>
+            <label>
+              <input type="checkbox" name="wifi">Wi-Fi
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья:</legend>
+            <label>
+              <input type="checkbox" name="hotel" checked>Гостиница
+            </label>
+            <label>
+              <input type="checkbox" name="motel" checked>Мотель
+            </label>
+            <label>
+              <input type="checkbox" name="apartments" checked>Апартаменты
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Стоимость в сутки (Р):</legend>
+            <div>
+              <label>
+                от<input type="text" name="minDailyPayment" value="0">
+              </label>
+              <label>
+                до<input type="text" name="maxDailyPayment" value="3000">
+              </label>
+            </div>
+            <!-- Здесь будет ползунок выбора диапазона суточной оплаты -->
+          </fieldset>
           <button type="submit">Показать</button>
-        </div>
+        </form>
       </section>
       <section>
-        <h2>Результаты поиска</h2>
+        <h2 class="visually-hidden">Результаты поиска</h2>
         <div>
           <strong>Найдено: 3</strong>
           <div>

@@ -23,13 +23,13 @@
       <div>
         <img src="img/intro-logo.svg" width="459" height="353" alt="Седона приветствует вас!">
       </div>
-      <h1>Жилье в Седоне</h1>
+      <h1 class="visually-hidden">Жилье в Седоне</h1>
       <section>
-        <h2>О Седоне</h2>
+        <h2 class="visually-hidden">О Седоне</h2>
         <b>Седона - небольшой городок в Аризоне, заслуживающий большего!</b>
       </section>
       <section>
-        <h2>Преимущества</h2>
+        <h2 class="visually-hidden">Преимущества</h2>
         <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
         <div>
           <div>
@@ -78,7 +78,7 @@
         </div>
       </section>
       <section>
-        <h2>Поиск</h2>
+        <h2 class="visually-hidden">Поиск</h2>
         <b>Заинтересовались?</b>
         <p>Укажите предполагаемые даты поездки,<br>
           и мы покажем Вам лучшие предложения гостиниц в Седоне
@@ -103,5 +103,26 @@
         </a>
       </p>
     </footer>
+    <div>
+      <form action="https://echo.htmlacademy.ru" method="get">
+        <label>
+          Дата заезда:
+          <input type="text" name="arrivalDate" value="24 Апреля 2017">
+        </label>
+        <label>
+          Дата выезда:
+          <input type="text" name="departureDate" value="4 Июля 2017">
+        </label>
+        <label>
+          Взрослые:
+          <input type="text" name="adultCount" value="2">
+        </label>
+        <label>
+            Дети:
+            <input type="text" name="childrenCount" value="0">
+        </label>
+        <button type="submit">Найти</button>
+      </form>
+    </div>
   </body>
 </html>
