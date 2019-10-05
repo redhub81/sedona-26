@@ -7,7 +7,7 @@
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
   </head>
-  <body>
+  <body class="main-container">
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-logo">
@@ -20,85 +20,93 @@
           <li><a href="catalog.html">Гостиницы</a></li>
         </ul>
       </nav>
-    </header>
-    <main class="main-container">
-      <h1 class="visually-hidden">Жилье в Седоне</h1>
       <div class="main-intro">
         <img src="img/intro-logo.svg" width="459" height="353" alt="Седона приветствует вас!">
       </div>
-      <section class="about">
+    </header>
+    <main>
+      <h1 class="visually-hidden">Жилье в Седоне</h1>
+      <section class="about-container">
         <h2 class="visually-hidden">О Седоне</h2>
-        <b>Седона - небольшой городок в Аризоне, заслуживающий большего!</b>
+        <b>Седона &mdash; небольшой городок в Аризоне,<br>заслуживающий большего!</b>
       </section>
-      <section class="advantages">
+      <section class="advantages-container">
         <h2 class="visually-hidden">Преимущества</h2>
-        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
-        <div>
+        <p class="advantages-lead">
+          Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!
+        </p>
+        <div class="advantage-list">
           <div class="advantage">
-            <div class="advantage-header">
-              <div class="advantage-description">
-                <h3>Настоящий городок</h3>
-                <span class="advantage-number">&ndash; №1 &ndash;</span>
-                <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
-              </div>
-              <img src="img/picture_city.jpg" width="800" height="256" alt="Жизнь города">
+            <div class="advantage-description advantage-description-large">
+              <h3>Настоящий<br>городок</h3>
+              <p><span class="advantage-number">&mdash; №1 &mdash;</span></p>
+              <p>Седона &mdash; не аттракцион для туристов,<br> там течет своя жизнь</p>
             </div>
+            <img src="img/picture_city.jpg" width="800" height="256" alt="Жизнь города">
             <ul class="advantage-details">
-              <li class="advantage-detail">
-                <h4>Жилье</h4>
-                <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+              <li class="advantage-detail advantage-detail-habitation">
+                <h4>Жильё</h4>
+                <p>Рекомендуем пожить в настоящем<br>мотеле, всё как в кино!</p>
               </li>
-              <li class="advantage-detail">
+              <li class="advantage-detail advantage-detail-meal">
                 <h4>Еда</h4>
-                <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                <p>Всегда заказывайте фирменный бургер,<br>выне разочаруетесь!</p>
               </li>
-              <li class="advantage-detail">
+              <li class="advantage-detail advantage-detail-memento">
                 <h4>Сувениры</h4>
-                <p>Не только китайского, но и местного производства!</p>
+                <p>Не только китайского, но и местного<br>производства!</p>
               </li>
             </ul>
           </div>
-          <div class="advantage advantage-header">
-            <div class="advantage-description">
-              <h3>Там есть мост дьявола</h3>
-              <span class="advantage-number">&ndash; №2 &ndash;</span>
-              <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          <div class="advantage">
+            <div class="advantage-description advantage-description-large advantage-description-right">
+              <h3>Там есть<br>мост дьявола</h3>
+              <p><span class="advantage-number">&mdash; №2 &mdash;</span></p>
+              <p>Да, по нему можно пройти! Если конечно<br>вы осмелитесь</p>
             </div>
             <img src="img/picture_canyon.jpg" width="800" height="256" alt="Мост дьявола">
           </div>
-          <div class="advantage advantage-description">
-            <h3 class="advantage-number">Небольшая площадь</h3>
-            <span>&ndash; №3 &ndash;</span>
-            <p>Все достопримечательности находятся очень близко</p>
+          <div class="advantage">
+            <div class="advantage-description">
+              <h3>Небольшая<br>площадь</h3>
+              <p><span class="advantage-number">&mdash; №3 &mdash;</span></p>
+              <p>Все достопримечательности<br>находятся очень близко</p>
+            </div>
           </div>
-          <div class="advantage advantage-description">
-            <h3 class="advantage-number">Красивая дорога</h3>
-            <span>&ndash; №4 &ndash;</span>
-            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          <div class="advantage">
+            <div class="advantage-description">
+              <h3>Красивая<br>дорога</h3>
+              <p><span class="advantage-number">&mdash; №4 &mdash;</span></p>
+              <p>Ехать в Седону из Лас-Вегаса совсем<br>не скучно!</p>
+            </div>
           </div>
-          <div class="advantage advantage-description">
-            <h3>Мало туристов</h3>
-            <span class="advantage-number">&ndash; №5 &ndash;</span>
-            <p>Большинство едет в Гранд Каньон и толпится там</p>
-          </div>
+          <div class="advantage">
+            <div class="advantage-description">
+              <h3>Мало<br>туристов</h3>
+              <p><span class="advantage-number">&mdash; №5 &mdash;</span></p>
+              <p>Большинство едет в Гранд Каньон<br>и толпится там</p>
+            </div>
+          </div>          
         </div>
       </section>
-      <section class="search-housing">
-        <h2 class="visually-hidden">Поиск</h2>
+      <section class="search-habitation-container">
+        <h2 class="visually-hidden">Поиск жилья на карте</h2>
         <b>Заинтересовались?</b>
         <p>Укажите предполагаемые даты поездки,<br>
           и мы покажем Вам лучшие предложения гостиниц в Седоне
         </p>
-        <button class="button button-alter" type="button">Поиск гостиницы в Седоне</button>
-        <img src="img/map-sedona-location.png" width="1200" height="594" alt="Седона на карте">
+        <a href="search-habitation-on-map.html" class="button button-alter" type="button">Поиск гостиницы в Седоне</a>
+        <div class="habitation-map-wrapper">
+          <img src="img/map-sedona-location.png" width="1200" height="594" alt="Седона на карте">
+        </div>
       </section>
     </main>
-    <footer class="main-footer">
+    <footer class="main-footer main-footer-top">
       <p class="footer-hashtag">#visitsedona</p>
       <ul class="footer-social">
-        <li><a class="button button-main" href="">Twitter</a></li>
-        <li><a class="button button-main" href="">Facebook</a></li>
-        <li><a class="button button-main" href="">YouTube</a></li>
+        <li><a class="button button-main button-tw" href="">Twitter</a></li>
+        <li><a class="button button-main button-fb" href="">Facebook</a></li>
+        <li><a class="button button-main button-yt" href="">YouTube</a></li>
       </ul>
       <p class="footer-copyright">
         Website by
@@ -109,41 +117,41 @@
         </a>
       </p>
     </footer>
-    <div class="modal modal-search-housing">
+    <div class="modal modal-search-habitation">
       <form action="https://echo.htmlacademy.ru" method="post">
-        <div>
+        <div class="date-control">
           <label for="arrival-field">Дата заезда:</label>
-          <div class="date-control">
+          <div class="data-field date-field">
             <input id="arrival-field" type="text" name="arrivalDate" value="24 Апреля 2017">
             <button class="button button-picker" type="button" aria-label="Открыть календарь">Календарь</button>
           </div>
         </div>
-        <div>
+        <div class="date-control">
           <label for="departure-field">Дата выезда:</label>
-          <div class="date-control">
+          <div class="data-field date-field">
             <input id="departure-field" type="text" name="departureDate" value="4 Июля 2017">
             <button class="button button-picker" type="button" aria-label="Открыть календарь">Календарь</button>
           </div>
         </div>
-        <div>
-          <div>
+        <div class="number-control-wrapper">
+          <div class="number-control">
             <label for="adult-field">Взрослые:</label>
-            <div class="number-control">
-              <button class="button button-picker" type="button" aria-label="Уменьшить">-</button>
+            <div class="data-field number-field">
+              <button class="button button-picker button-minus" type="button" aria-label="Уменьшить">-</button>
               <input id="adult-field" type="text" name="adultCount" value="2">
-              <button class="button button-picker" type="button" aria-label="Увеличить">+</button>
+              <button class="button button-picker button-plus" type="button" aria-label="Увеличить">+</button>
             </div>
           </div>
-          <div>
+          <div class="number-control childrent-count-control">
             <label for="children-field">Дети:</label>
-            <div class="number-control">
-              <button class="button button-picker" type="button" aria-label="Уменьшить">-</button>
+            <div class="data-field number-field">
+              <button class="button button-picker button-minus" type="button" aria-label="Уменьшить">-</button>
               <input id="children-field" type="text" name="childrenCount" value="0">
-              <button class="button button-picker" type="button" aria-label="Увеличить">+</button>
+              <button class="button button-picker button-plus" type="button" aria-label="Увеличить">+</button>
             </div>
           </div>
         </div>
-        <button class="button button-main" type="submit">Найти</button>
+        <button class="button button-main button-search" type="submit">Найти</button>
       </form>
     </div>
   </body>
